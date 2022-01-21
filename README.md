@@ -2,7 +2,7 @@
 
 # Set Up Laravel Project:
 
-composer create-project laravel/laravel <project name>
+composer create-project laravel/laravel **project Name**
 
 # Set Up Database Details in .ENV
 
