@@ -5,7 +5,9 @@
 * hasOne() method is used to define the 1 to 1 relationship and on another model.
 * belongsTo() method to define the inverse relationship.
 
-### 
+## Create Migrations
+*  create the passport table migration. To do so run the following command:
+  ~$ php artisan make:migration create_passports_table
 
 
 ## Contributing
