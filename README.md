@@ -6,8 +6,11 @@
 * belongsTo() method to define the inverse relationship.
 
 ## Create Migrations
+* Create Model Controller and Migration with this magic code
+ ~$ php artisan make:model Identitycard -mc
 *  create the passport table migration. To do so run the following command:
   ~$ php artisan make:migration create_passports_table
+
 
 
 ## Contributing
