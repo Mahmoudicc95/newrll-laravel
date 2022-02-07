@@ -5,4 +5,4 @@
 ### How to Create Seeders
 1. Go to CLI and run an Artisan command php artisan make:seeder UsersSeeder
 2. UserSeeder class has been created into database/seeds directory
-3. Now open the database/seeds/UsersSeeder.php file and adjust the run method to the following.
+3. Now open the database/seeds/UsersSeeder.php.
