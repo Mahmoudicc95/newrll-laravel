@@ -42,9 +42,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function passport()
+    public function phone()
     {
-        return $this->hasOne(passport::class);
+        return $this->hasOne(phone::class);
     }
     
 }
