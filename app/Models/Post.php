@@ -5,11 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Brand extends Model
+class Post extends Model
 {
     use HasFactory;
-    public function products()
+    protected $table = "Posts";
+
+    public function comments()
     {
-        return $this->hasMany(product::class);
+        return $this->hasMany(Comment::class);
     }
 }
